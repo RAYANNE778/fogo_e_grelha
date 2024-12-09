@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Fogo e Grelha</title>
+    <link rel="icon" href="img/logo/FOGO_GRELHA-removebg-preview.png" type="logo">
+</head>
+<body>
+    <header id="cabecalho" class="sticky-top">
+        <div class="navbar navbar-expand-lg p-4">
+            <div class="container">
+                <img src="/img/logo/FOGO_GRELHA-removebg-preview.png" alt="" class="logo-menor">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao" aria-label="Slide anterior">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item">
+                            <a href="#sobre-restaurante" class="nav-link">
+                                <i class="bi bi-house-door me-1"></i>
+                                Sobre o restaurante
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#cardapio" class="nav-link">
+                                <i class="bi bi-card-text me-1"></i>
+                                Cardápio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#eventos" class="nav-link">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Informações
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#fale-conosco" class="nav-link">
+                                <i class="bi bi-telephone me-1"></i>
+                                Fale conosco
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">   
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="/img/carrocel/005.webp"  alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/carrocel/002.webp" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000"> 
+                        <img src="/img/carrocel/003.webp" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev" aria-label="Slide anterior">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next" aria-label="Slide anterior">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0" aria-label="Slide anterior" aria-hidden="true"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide anterior" aria-hidden="true"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide anterior" aria-hidden="true"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/img/info/restaurante.jpg" class="d-block w-100 rounded" alt="foto do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-4 mt-md-0">
+                            <h2 class="section-title">Sobre o restaurante</h2>
+                            <p class="paragrafo">Destinado a trabalhadores locais e famílias, o Verbo Lanches tem um cardápio único, com pratos que mudam a cada dia da semana. Refeições preparadas com ingredientes frescos e de alta qualidade, garantindo sabor e frescor. Ambiente acolhedor e dedicação de uma equipe que trata cada cliente como parte da família. Se você busca uma experiência que combina tradição, qualidade e toque pessoal, o Verbo Lanches é o lugar perfeito para você!</p>
+                            <h3 class="section-title">Onde fica?</h3>
+                            <p class="paragrafo">Rod. Augusto Montenegro, 1802 - Castanheira, Belém - PA, 66640-000</p>
+                            <ul>
+                                <li><a href="https://www.google.com/maps/place/Churrascaria+Boi+D'Ouro/@-1.4220502,-48.5079572,13z/data=!4m10!1m2!2m1!1sChurrascaria+Boi+D'ouro+gustavo+montenegro!3m6!1s0x92a48af5203ceb19:0xbb74f7384e165f86!8m2!3d-1.3861613!4d-48.4361452!15sCipDaHVycmFzY2FyaWEgQm9pIEQnb3VybyBndXN0YXZvIG1vbnRlbmVncm9aLCIqY2h1cnJhc2NhcmlhIGJvaSBkIG91cm8gZ3VzdGF2byBtb250ZW5lZ3JvkgEGYXNhZG9y4AEA!16s%2Fg%2F11gfb2ndz1?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Localização</a></li>
+                                <li><a href="https://instagram.com/boidouro?igshid=xopixnpqtrzo" target="_blank" rel="noopener">Proprietária</a></li>
+                                <li><a href="https://www.google.com/search?client=opera-gx&hs=jco&sca_esv=face10566ce46e9f&sxsrf=ADLYWIKCa6PSaBoeilhR93IV-wWLD43QcA:1733695209663&q=churrascaria+boi+de+ouro&spell=1&sa=X&ved=2ahUKEwjarvv4lZmKAxVMPrkGHQ3fAq4QBSgAegQIDhAB&biw=1323&bih=661&dpr=1#lrd=0x92a48e8ad8b028a1:0xb751b5823c6a709,1,,,," target="_blank" rel="noopener">O que estão falando?</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5">Cardápio</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carnes" class="fw-bold text-start nav-link text-colored active">Carnes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acompanhamentos" class="fw-bold text-start nav-link text-colored">Acompanhamentos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#peixefrango" class="fw-bold text-start nav-link text-colored">Peixe e Frango</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="fw-bold text-start nav-link text-colored">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#executivos" class="fw-bold text-start nav-link text-colored">Pratos Executivos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="carnes">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/assado de tira.webp" alt="Assado de Tira">
+                                        <h5 class="text-colored fw-bold mt-2">Assado de Tira</h5>
+                                        <p> Corte saboroso extraído da parte mais nobre da costela.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/picanha.jpg" alt="Picanha">
+                                        <h5 class="text-colored fw-bold mt-2">Picanha</h5>
+                                        <p> A picanha é um corte tipicamente brasileiro, muito saboroso e macio. Um dos cortes mais vendidos em nossas unidades.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/ancho.jpg" alt="Ancho">
+                                        <h5 class="text-colored fw-bold mt-2">Ancho</h5>
+                                        <p> Os cortes de bife ancho são assados lentamente, garantindo uma carne macia e suculenta com sabor único.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/fraldinha.jpg" alt="Fraldinha">
+                                        <h5 class="text-colored fw-bold mt-2">Fraldinha</h5>
+                                        <p> Corte com paladar diferenciado, disputa com a picanha o primeiro lugar nas vendas no Fogo de Chão.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/costela premium.jpg" alt="Costela Premium">
+                                        <h5 class="text-colored fw-bold mt-2">Costela Premium</h5>
+                                        <p> Este corte clássico é preparado de forma tradicional, proporcionando um sabor autêntico.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/alcatra.jpg" alt="Alcatra">
+                                        <h5 class="text-colored fw-bold mt-2">Alcatra</h5>
+                                        <p> É um dos cortes mais versáteis do boi. Possui fibras macias o que a deixa extremamente saborosa.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/bife de chorisso.jpg" alt="Bife Chorizo">
+                                        <h5 class="text-colored fw-bold mt-2">Bife Chorizo</h5>
+                                        <p> Corte nobre tradicional da Argentina perfeitamente suculento.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/cupim.webp" alt="cupim">
+                                        <h5 class="text-colored fw-bold mt-2">Cupim</h5>
+                                        <p> Caracterizado pela gordura entremeada nas fibras, este corte é lentamente assado e desmancha na boca.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/carnes/costelão.jpg" alt="costelão">
+                                        <h5 class="text-colored fw-bold mt-2">Costelão</h5>
+                                        <p> Este corte é assado lentamente por até 7 horas até alcançar o ponto perfeito.</p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acompanhamentos">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/acompanhamentos/batata frita.jpg" alt="batata frita">
+                                        <h5 class="text-colored fw-bold mt-2">Batata Frita</h5>
+                                        <p> Super crocante e sequinha.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/acompanhamentos/arroz carreteiro.jpg" alt="arroz carreteiro">
+                                        <h5 class="text-colored fw-bold mt-2">Arroz Carreteiro</h5>
+                                        <p> O tradicional arroz carreteiro gaúcho é feito com arroz tipo agulha (grão longo) e carne de charque.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/acompanhamentos/polenta frita.jpg" alt="polenta frita">
+                                        <h5 class="text-colored fw-bold mt-2">Polenta Frita</h5>
+                                        <p> Polenta vem em versão saudável, cortada bem fininha e grelhada.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/acompanhamentos/banana assada.avif" alt="banana assada">
+                                        <h5 class="text-colored fw-bold mt-2">Banana Assada</h5>
+                                        <p> Brasileiríssima, tem um toque adocicado.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/acompanhamentos/feijão tropeiro.webp" alt="feijao tropeiro">
+                                        <h5 class="text-colored fw-bold mt-2">Feijão Tropeiro</h5>
+                                        <p> Originalmente feito com feijão preto, pedaços de charque, linguiça e outras carnes são desfiados ou cortados bem miúdo. Um prato no melhor estilo rústico e saboroso.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/acompanhamentos/macaxeira frita.avif" alt="macaxeira frita">
+                                        <h5 class="text-colored fw-bold mt-2">Macaxeira Frita</h5>
+                                        <p> Super crocante e sequinha.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="peixefrango">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/peixe-e-frango/salmao assadojpeg.jpeg" alt="salmao assado">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão Assado</h5>
+                                        <p> Prato à la carte - Posta de 220gr de Salmão guarnecido com palmito pupunha marinado no azeite e assado em churrasqueira.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/peixe-e-frango/coração de frango.jpg" alt="Coracao de frango">
+                                        <h5 class="text-colored fw-bold mt-2">Coração de Frango</h5>
+                                        <p> Suculentos e finamente temperados.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/sobremesas/petit gateau.jpg" alt="petit Gateau">
+                                        <h5 class="text-colored fw-bold mt-2">Petit Gateau</h5>
+                                        <p> Bolo de chocolate quente com sorvete de creme.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/sobremesas/cocada.webp" alt="cocada tabuleiro">
+                                        <h5 class="text-colored fw-bold mt-2">Cocada Tabuleiro</h5>
+                                        <p> Doce de coco assado, servido com sorvete de creme.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/sobremesas/creme brulee.jpg" alt="creme brulee">
+                                        <h5 class="text-colored fw-bold mt-2">Creme Brulee</h5>
+                                        <p> A base de creme, tem um toque de baunilha e coberto com uma deliciosa crosta de açúcar queimado.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/sobremesas/creme brulee.jpg" alt="bolo tres leches">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo três Leches</h5>
+                                        <p> Pão de ló de baunilha embebido em três tipos de leite (leite, leite condensado e creme de leite), coberto com merengue torrado e frutas vermelhas</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/sobremesas/pudim.webp" alt="pudim">
+                                        <h5 class="text-colored fw-bold mt-2">Pudim</h5>
+                                        <p> Delicioso pudim de leite com calda de ameixa.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/sobremesas/mousse.webp" alt="mousse">
+                                        <h5 class="text-colored fw-bold mt-2">Mousse</h5>
+                                        <p> Mousse de chocolate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/bebidas/lata.png" alt="Refrigerante lata">
+                                        <h5 class="text-colored fw-bold mt-2">Refrigerante lata</h5>
+                                        <p> Coca-cola, Fanta (Uva, Laranja), Guarana e Sprite </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/bebidas/refrigerantes 2.jpg" alt="Refrigerante 1l">
+                                        <h5 class="text-colored fw-bold mt-2">Refrigerante 1l</h5>
+                                        <p> Coca-cola, Fanta (Uva, Laranja), Guarana e Sprite </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/bebidas/agua.jpg" alt="agua">
+                                        <h5 class="text-colored fw-bold mt-2">Aguá</h5>
+                                        <p> Aguá mineral 300ml, Aguá com gás 300ml.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/bebidas/suco copo.jpg" alt="Sucos 300ml">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos 300ml</h5>
+                                        <p> Laranja, Acerola, Goiaba, Mangá, Maracuja, Limão e Morango</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/bebidas/suco jarra.jpeg" alt="Sucos Jarra 1l">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos Jarra 1l</h5>
+                                        <p> Laranja, Acerola, Goiaba, Mangá, Maracuja, Limão e Morango</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="executivos">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/executivo/almnoco.jpeg" alt="prato bife acebolado">
+                                        <h5 class="text-colored fw-bold mt-2">Bife Acebolado</h5>
+                                        <p> Omnis enim quisquam cumque, harum, voluptatibus illo perspiciatis? Veniam, vitae.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/executivo/9625bfdc-parmegiana-em-goiania-1.jpg" alt="prato parmegiana">
+                                        <h5 class="text-colored fw-bold mt-2">Frango a Parmegiana</h5>
+                                        <p> Omnis enim quisquam cumque, harum, voluptatibus illo perspiciatis? Veniam, vitae.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/executivo/panqueca.jpg" alt="prato panqueca">
+                                        <h5 class="text-colored fw-bold mt-2">Panqueca</h5>
+                                        <p> Omnis enim quisquam cumque, harum, voluptatibus illo perspiciatis? Veniam, vitae.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 rounded" src="/img/cardapio/executivo/chambari.jpg" alt="prato chambari">
+                                        <h5 class="text-colored fw-bold mt-2">Chambari</h5>
+                                        <p> Omnis enim quisquam cumque, harum, voluptatibus illo perspiciatis? Veniam, vitae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="informacoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas as ocasiões</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/info/restaurante.jpg" alt="" class="d-block w-100 rounded mb-2">
+ -                       <h3 class="section-title - fs-4">
+                            <i class="bi bi-clock"></i>
+                            Horário de funcionamento</h3>
+                        <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi porro non atque provident, dolorem laboriosam aliquam nisi, eius obcaecati a ipsam unde, blanditiis in rerum odit delectus alias nam accusantium!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/info/004.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-coin"></i>
+                            EVENTOS</h3 >
+                        <p class="paragrafo">Uma experiência gastronômica gaúcha elegantemente apresentada por nossa equipe hábil e experiente que fará do Fogo de Chão, o local perfeito para o seu grupo, evento ou reunião.
+                            REUNIÕES EMPRESARIAIS, CURSOS, WEBINARS DE NEGÓCIOS, REUNIÕES DE CONSELHO, ANIVERSÁRIOS E DATAS COMEMORATIVAS, CASAMENTOS & EVENTOS, DESPEDIDAS DE SOLTEIRO (A), FORMATURAS, CELEBRAÇÕES ESPECIAIS, EVENTOS CORPORATIVOS, REUNIÕES EMPRESARIAIS MENSAIS</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/info/006.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-geo-alt"></i>
+                            ÁREA RESERVADA PARA GRUPOS</h3>
+                        <p class="paragrafo"> Cada restaurante oferece espaços únicos para grupos, sejam eles: privado, semi-privado e público para todas as ocasiões. Para mais informações sobre grupos de 15 ou mais pessoas, preencha o formulário de reserva para grupos ou ligue diretamente para nosso gerente de vendas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-contato mb-5">Contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold section-contato">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold section-contato">Seu email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="email@exemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold section-contato">Seu telefone (Opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark section-contato fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-contato fs-4">Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.instagram.com/rayanne.rocha78/profilecard/?igsh=N3lndmUybjd6Nmsw">
+                                        <i class="bi bi-instagram section-contato"></i>
+                                        <span class="visually-hidden">Visite meu perfil no Instagram</span>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://github.com/RAYANNE778">
+                                        <i class="bi bi-github section-contato"></i>
+                                        <span class="visually-hidden">Visite meu perfil no GitHub</span>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://www.linkedin.com/in/rayanne-rocha78/">
+                                        <i class="bi bi-linkedin section-contato"></i>
+                                        <span class="visually-hidden">Visite meu perfil no Linkedin</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-contato fs-4">Endereço</h3>
+                            <p class="section-contato">
+                                Rod. Augusto Montenegro, 1802 - Castanheira, Belém - PA, 66640-000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="mt-2 pt-5">
+                <p class="section-contato">&copy; 2024 Rayanne Rocha. Todos os direitos reservados.</p>
+            </footer>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
